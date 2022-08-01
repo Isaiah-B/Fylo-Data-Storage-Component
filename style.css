@@ -147,14 +147,15 @@ span {
 }
 
 .bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   position: absolute;
   top: 0;
   right: 4rem;
   transform: translateY(-75%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.3rem;
+  padding: 1.3rem 2rem;
   border-radius: 9px;
   border-bottom-right-radius: 0;
   background-color: hsl(0, 0%, 100%);
