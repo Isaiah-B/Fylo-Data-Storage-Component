@@ -11,8 +11,8 @@ Users of this page should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://www.frontendmentor.io/solutions/responsive-data-storage-component--M2PPBQcWA)
+- [Live Site](https://startling-phoenix-f4be53.netlify.app)
 
 ### Built with
 
