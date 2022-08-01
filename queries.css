@@ -1,0 +1,51 @@
+/****************************/
+/* BELOW 960px */
+/****************************/
+@media (max-width: 60em) {
+  .content-right {
+    width: 34rem;
+  }
+}
+
+/****************************/
+/* BELOW 768px */
+/****************************/
+@media (max-width: 48em) {
+  .background {
+    background-image: url('images/bg-mobile.png');
+    height: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-left {
+    padding-right: 10.6rem;
+  }
+
+  .content-right {
+    text-align: center;
+    width: 100%;
+    padding: 3.6rem;
+  }
+
+  .bar-labels {
+    margin-bottom: 1.6rem;
+  }
+
+  .bubble {
+    top: initial;
+    right: initial;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 18rem;
+    border-radius: 9px;
+  }
+
+  .bubble::after {
+    display: none;
+  }
+}
